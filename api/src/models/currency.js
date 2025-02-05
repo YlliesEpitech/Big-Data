@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const currencySchema = mongoose.Schema({
-    currency: Number,
+    currency: { type: Number, required: true }, // Typage en Number
     date: Date,
 
 });
