@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const currencySchema = mongoose.Schema({
-    currency: String,
+    currency: Number,
     date: Date,
 
 });
