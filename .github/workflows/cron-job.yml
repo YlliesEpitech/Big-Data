@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Send HTTP Request
         run: |
-          curl -X POST https://big-data-ruby.vercel.app/create
+          curl -X POST https://big-data-azure.vercel.app/create
